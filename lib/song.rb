@@ -7,6 +7,11 @@ class Song
 
   #create attr_writer and automatically call an add song to genre method
   #in order to add song to songs array in genre
+
+  # def initialize(*artist)
+  #   @artist = Artist.new
+  # end
+
   def genre=(genre_instance)
     @genre = genre_instance
     # genre_instance.songs << self
